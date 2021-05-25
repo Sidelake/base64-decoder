@@ -8,6 +8,6 @@ final = text.decode('ascii')
 print(final)
 
 e = input("""=========================
-Press any key to exit!""")
+Press enter to exit!""")
 
 #note: this was extremely easy to make lol.
