@@ -1,6 +1,6 @@
 import base64
 #imports
-print('========================')
+print('=========================')
 text = 'aW5zZXJ0IHJhbmRvbSBiYXNlNjQgdGV4dA=='
 kekd = text.encode('ascii')
 text = base64.b64decode(kekd)
