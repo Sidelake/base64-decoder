@@ -2,7 +2,6 @@ import base64
 #imports
 text = input('Give me some text to decode!')
 print('=========================')
-text = 'aW5zZXJ0IHJhbmRvbSBiYXNlNjQgdGV4dA=='
 kekd = text.encode('ascii')
 text = base64.b64decode(kekd)
 final = text.decode('ascii')
